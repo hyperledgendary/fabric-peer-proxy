@@ -1,0 +1,6 @@
+fabric-protos/.git*
+fabric-protos/ci
+fabric-protos/*.md
+fabric-protos/*.yaml
+fabric-protos/CODEOWNERS
+fabric-protos/LICENSE
