@@ -20,7 +20,5 @@ WORKDIR /home/proxy
 COPY --from=tools /tmp/grpc-dump ./grpc-dump
 COPY fabric-protos/ ./protos
 
-CMD ["/home/proxy/grpc-dump", "-interface=0.0.0.0", "-port=7052", "-destination=peer0.humboldt.example.com:7052", "-proto_roots=/home/proxy/protos", "-log_level=debug"]
-
 # Chaincode as a server
-#CMD ["/home/proxy/grpc-dump", "-interface=0.0.0.0", "-port=9999", "-destination=fabcar.example.com:9999", "-proto_roots=/home/proxy/protos", "-log_level=debug"]
+CMD ["/home/proxy/grpc-dump", "-interface=0.0.0.0", "-port=9999", "-destination=fabcar.example.com:9999", "-proto_roots=/home/proxy/protos", "-log_level=debug"]
