@@ -8,7 +8,7 @@ grpc-dump proxy in docker to intercept Fabric peer gRPC messages
 docker build -t hyperledgendary/fabric-proxy .
 ```
 
-## Usage (TBC)
+## Usage
 
 Seemed to work with the [fabcar chaincode as a server sample](https://github.com/hyperledger/fabric-samples/tree/master/chaincode/fabcar/external).
 
@@ -59,7 +59,7 @@ Use the [fabric-protos](https://github.com/hyperledger/fabric-protos) project to
 
 ## Future
 
-Making this work with "normal" chaincode could be useful!
+Making this work with "normal" chaincode, or with a client app could be useful.
 
 ## Misc
 
